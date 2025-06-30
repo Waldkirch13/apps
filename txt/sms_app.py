@@ -67,7 +67,7 @@ if st.button("Send SMS"):
             # --- Rate Limiting ---
             time.sleep(delay_seconds)
 
-        st.success("All batches processed!")
+        st.success("All batches submitted for processing! (Not final confirmation yet)")
 
 # Display current recipients for review
 if recipients:
